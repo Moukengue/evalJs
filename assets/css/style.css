@@ -1,0 +1,158 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#logo {
+width: 40%;
+}
+
+nav {
+padding: 0;
+
+margin-top: 75px;
+
+}
+ul {
+list-style-type: none;
+margin: 0px;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color:rgb(255, 255, 255);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;}
+
+hr{
+color: black;
+opacity: 50%;
+}
+#aside{
+    display: flex;
+    float: right;
+    background-color: grey;
+    width: 300px;
+    height: 520px;
+  }
+  #article{
+    max-width: 50%;
+    
+  }
+/* pour l'espaces dans mes paragraphes j'ai utilisé line-height*/
+  #para1{
+      line-height: 35px;
+      font-size: 1em;
+  }
+#para2{
+  line-height: 35px;
+  font-size: 1em;
+}
+/* dossier  conctat*/
+
+form {
+  padding: 12px 20px;
+}
+
+ fieldset{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+ }
+
+input, select, textarea{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#sexe{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+ input[type=text],  input[type=date], input[type=email], select, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+  }
+
+  input[type=text]:focus, input[type=email]:focus {
+    background-color: lightblue;
+  }
+  input[type=button], input[type=submit], input[type=reset] {
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  background-color: red;
+}
+
+input[type=submit] {
+  background-color: rgb(40, 116, 5);
+}
+  /* Tableau */
+
+#tableau {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tableau td, #tableau th {
+  border: 1px solid rgb(210, 22, 22);
+  padding: 8px;
+}
+
+#tableau tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#tableau tr:hover {
+  background-color: #ddd;
+}
+
+#tableau th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+    /*encadrement des photos avec tbody */
+#photo{
+    background-color: aqua;
+  }
+
+  /* js exo 5 contact et index*/
+
+  .nono{
+    background: url(../img/noel1.jpg) fixed no-repeat center/cover;
+  }
+  .navbar-nav{
+    background-color:rgb(185, 133, 70);
+
+    }
